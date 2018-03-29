@@ -1,0 +1,29 @@
+
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+
+
+
+Route::get('/accueil', function () {
+    return view('acceuil');
+});
+
+
+
+
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
+
+
+
+Route::get('/A_propos', function () {
+    return view('A_propos');
+});
+
